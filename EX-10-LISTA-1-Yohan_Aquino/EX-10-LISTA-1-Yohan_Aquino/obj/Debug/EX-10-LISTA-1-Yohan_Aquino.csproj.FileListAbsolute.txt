@@ -1,0 +1,7 @@
+C:\Users\yohan\Desktop\1° lista de PRCA2\EX-10-LISTA-1-Yohan_Aquino\EX-10-LISTA-1-Yohan_Aquino\obj\Debug\EX-10-LISTA-1-Yohan_Aquino.csprojAssemblyReference.cache
+C:\Users\yohan\Desktop\1° lista de PRCA2\EX-10-LISTA-1-Yohan_Aquino\EX-10-LISTA-1-Yohan_Aquino\obj\Debug\EX-10-LISTA-1-Yohan_Aquino.csproj.CoreCompileInputs.cache
+C:\Users\yohan\Desktop\1° lista de PRCA2\EX-10-LISTA-1-Yohan_Aquino\EX-10-LISTA-1-Yohan_Aquino\bin\Debug\EX-10-LISTA-1-Yohan_Aquino.exe.config
+C:\Users\yohan\Desktop\1° lista de PRCA2\EX-10-LISTA-1-Yohan_Aquino\EX-10-LISTA-1-Yohan_Aquino\bin\Debug\EX-10-LISTA-1-Yohan_Aquino.exe
+C:\Users\yohan\Desktop\1° lista de PRCA2\EX-10-LISTA-1-Yohan_Aquino\EX-10-LISTA-1-Yohan_Aquino\bin\Debug\EX-10-LISTA-1-Yohan_Aquino.pdb
+C:\Users\yohan\Desktop\1° lista de PRCA2\EX-10-LISTA-1-Yohan_Aquino\EX-10-LISTA-1-Yohan_Aquino\obj\Debug\EX-10-LISTA-1-Yohan_Aquino.exe
+C:\Users\yohan\Desktop\1° lista de PRCA2\EX-10-LISTA-1-Yohan_Aquino\EX-10-LISTA-1-Yohan_Aquino\obj\Debug\EX-10-LISTA-1-Yohan_Aquino.pdb
