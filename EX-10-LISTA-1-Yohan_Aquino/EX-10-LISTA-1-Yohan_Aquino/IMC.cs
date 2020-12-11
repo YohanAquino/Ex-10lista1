@@ -8,42 +8,65 @@ namespace EX_10_LISTA_1_Yohan_Aquino
 {
     class IMC
     {
-        private double p;
-        private double h;
-        private double r;
+        #region atributos
+        private double peso;
+        private double altura;
+        private double razao;
+        #endregion;
 
-        public void setPeso(double x) 
+        #region construtores
+        public IMC() 
         {
-            p = x;
+            peso = 0;
+            altura = 0;
         }
 
-        public void setAltura(double x)
+        public IMC(double peso,double altura)
         {
-            h = x;
+            this.peso = peso;
+            this.altura = altura;
         }
 
-        public void calcularRelação() 
+        #endregion;
+
+        #region metodos set e get
+        public void setPeso(double peso) 
         {
-            r = p /Math.Pow(h, 2);
+            this.peso = peso;
         }
+
+        public void setAltura(double altura)
+        {
+            this.altura = altura;
+        }
+
         public string getRelação()
         {
-            if (r < 20)
+            if (razao < 20)
             {
                 return "abaixo do peso";
             }
-            else 
+            else
             {
-                if (r >= 25)
+                if (razao >= 25)
                 {
                     return "acima do peso";
                 }
-                else 
+                else
                 {
-                     return "no peso ideal";
+                    return "no peso ideal";
                 }
             }
         }
+
+        #endregion;
+
+        #region metodos funcionais
+        public void calcularRelação() 
+        {
+            razao = peso /Math.Pow(altura, 2);
+        }
+        #endregion;
 
     }
 }

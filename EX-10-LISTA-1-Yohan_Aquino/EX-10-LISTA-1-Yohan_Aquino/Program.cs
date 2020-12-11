@@ -16,15 +16,17 @@ Relação peso/altura² (R) Mensagem
 R < 20 Abaixo do peso
 20 <= R < 25 Peso ideal
 R >= 25 Acima do peso*/
-            IMC i = new IMC();
+
+            IMC imc = new IMC();
+            //IMC imc = new IMC(80, 1.71);
 
             Console.WriteLine("Digete o peso da pessoa:");
-            i.setPeso(double.Parse(Console.ReadLine()));
+            imc.setPeso(double.Parse(Console.ReadLine()));
 
             Console.WriteLine("Digite a altura da pessoa");
-            i.setAltura(double.Parse(Console.ReadLine()));
-            i.calcularRelação();
-            Console.WriteLine("o IMC da pessoa mostra que está {0}",i.getRelação());
+            imc.setAltura(double.Parse(Console.ReadLine()));
+            imc.calcularRelação();
+            Console.WriteLine("o IMC da pessoa mostra que está {0}",imc.getRelação());
             Console.ReadKey();
         }
     }
